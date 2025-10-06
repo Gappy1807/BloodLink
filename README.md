@@ -1,0 +1,62 @@
+# BloodLink
+
+**Connecting Blood Donors & Seekers in Real-Time**
+
+## 📌 Project Overview
+BloodLink is a real-time, location-based platform designed to bridge the gap between blood donors and seekers during emergencies. Using geolocation services, it enables users to quickly find nearby donors, send alerts, and facilitate life-saving connections seamlessly.
+
+## 🚀 Features
+- **Find Donors Near You** – Real-time location-based search.
+![WhatsApp Image 2025-08-15 at 22 38 34_0128f6e6](https://github.com/user-attachments/assets/965e899d-3abd-495c-9ace-b32c76d197b5)
+
+- **Instant Alerts** – Send emergency blood requests instantly.
+![WhatsApp Image 2025-08-15 at 22 38 33_4eafef7f](https://github.com/user-attachments/assets/cba7e398-a1f0-4c32-97e1-2225e1d7fd7c)
+
+- **User-Friendly Interface** – Simple and intuitive design.
+![WhatsApp Image 2025-08-15 at 22 38 33_1cffd151](https://github.com/user-attachments/assets/7ae4b4c6-bfdc-4610-b720-0d513f335101)
+
+- **Secure Data Handling** – Ensuring privacy for all users.
+
+## 🛠️ Tech Stack
+- **Frontend:** React + TypeScript + Tailwind CSS
+- **Build Tool:** Vite
+- **Styling:** TailwindCSS + PostCSS
+- **Linting:** ESLint
+- **Package Manager:** npm / bun
+
+## 📂 Project Structure
+```
+crossmatch-connect-main/
+├── index.html
+├── package.json
+├── src/
+│   ├── components/      # UI Components
+│   ├── pages/           # App Pages
+│   ├── assets/          # Images & Icons
+│   ├── App.tsx          # Main App Component
+│   └── main.tsx         # Entry Point
+├── public/              # Static Files
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/BloodLink.git
+   cd BloodLink
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   bun install
+   ```
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
